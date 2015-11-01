@@ -40,9 +40,8 @@ class Film: NSManagedObject {
         
         let jsonOb: JSON = JSON(data: data)
         for filmOb in jsonOb.arrayValue {
-            let film = Film.MR_createEntity() as! Film
+            let film = Film.MR_createEntity() as Film
             film.name = filmOb["title"].stringValue
-            print(Int(filmOb["rating"].doubleValue))
             film.rate = Int(filmOb["rating"].doubleValue)
             film.rating = 1.0
             film.genre = ""
@@ -55,7 +54,6 @@ class Film: NSManagedObject {
             film.imageUrl = ""
             film.duration = filmOb["duration"].doubleValue
             
-            print(film.name)
             result.append(film)
         }
         return result

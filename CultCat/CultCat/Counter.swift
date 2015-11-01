@@ -13,8 +13,9 @@ class Counter {
     var incrementTime = [Double]()
     var currentCount = 0.0
     
-    init() {
-        
+    init(name: String, times: [Double]) {
+        self.name = name
+        incrementTime = times
     }
     
     func update(time: Double, delegate: SessionDelegate) {

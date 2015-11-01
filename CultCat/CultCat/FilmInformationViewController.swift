@@ -27,6 +27,13 @@ class FilmInformationViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "startSession" {
+            let vc = segue.destinationViewController as! SessionViewController
+            vc.filmId = "test"
+            vc.film = film
+        }
+    }
 
     /*
     // MARK: - Navigation

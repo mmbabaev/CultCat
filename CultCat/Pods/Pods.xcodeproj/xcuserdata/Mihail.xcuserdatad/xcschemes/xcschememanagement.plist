@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Charts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MagicalRecord.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,17 +37,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1EAA33CCA3CF26E4F93EFCC0D00AD84A</key>
+		<key>2FE75A8D453AB14B7BAFF6B7EC1F4F39</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>549A049B76E85378F371162448AF71A7</key>
+		<key>5E6CDF69A33E78B8D61288D52F13CE74</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>89BE12CD9A7D36EA7D1818C3FF6D6508</key>
+		<key>6125AFED4A5F6E83D3E703179FC7E7B4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -52,7 +57,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BFD7A9CA7AE2601D2C48C21C805FB0B6</key>
+		<key>EB171BA9EF9DA360FDB5CA2A069C7A3A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ED28B418303738A2715EF9D82F27A497</key>
 		<dict>
 			<key>primary</key>
 			<true/>

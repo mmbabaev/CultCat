@@ -9,9 +9,12 @@
 import Foundation
 
 class Question {
+    var id: String! = ""
     var text: String!
     var answers = [String]()
     var time: Double!
+    var number: Int!
+    var statistic: [Int]!
     
     init(text: String, answers: [String], time: Double) {
         self.text = text
@@ -23,6 +26,7 @@ class Question {
         if self.time == time {
             delegate.showQuestion(self)
         }
-        
     }
+    
+    
 }

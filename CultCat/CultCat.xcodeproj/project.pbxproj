@@ -14,6 +14,8 @@
 		8707C5701BE4E91100AECFC1 /* CultCat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8707C56E1BE4E91100AECFC1 /* CultCat.xcdatamodeld */; };
 		8707C5721BE4E91100AECFC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8707C5711BE4E91100AECFC1 /* Assets.xcassets */; };
 		8707C5751BE4E91100AECFC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8707C5731BE4E91100AECFC1 /* LaunchScreen.storyboard */; };
+		870F4E9C1BE5A427006D9460 /* StatisticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870F4E9B1BE5A427006D9460 /* StatisticViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		870F4E9E1BE5A63B006D9460 /* StatisticTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870F4E9D1BE5A63B006D9460 /* StatisticTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
 		871A8C6E1BE4FA3F0011BB0D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871A8C6D1BE4FA3F0011BB0D /* User.swift */; settings = {ASSET_TAGS = (); }; };
 		871A8C701BE4FAA10011BB0D /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871A8C6F1BE4FAA10011BB0D /* Film.swift */; settings = {ASSET_TAGS = (); }; };
 		876A36681BE51816004B20A0 /* NSData+GZIP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876A36671BE51816004B20A0 /* NSData+GZIP.swift */; settings = {ASSET_TAGS = (); }; };
@@ -49,6 +51,8 @@
 		8707C5711BE4E91100AECFC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8707C5741BE4E91100AECFC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8707C5761BE4E91100AECFC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		870F4E9B1BE5A427006D9460 /* StatisticViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticViewController.swift; sourceTree = "<group>"; };
+		870F4E9D1BE5A63B006D9460 /* StatisticTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticTableViewCell.swift; sourceTree = "<group>"; };
 		871A8C6D1BE4FA3F0011BB0D /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		871A8C6F1BE4FAA10011BB0D /* Film.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
 		876A36671BE51816004B20A0 /* NSData+GZIP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSData+GZIP.swift"; sourceTree = "<group>"; };
@@ -176,6 +180,7 @@
 				87BBE0461BE502DB00EB25C8 /* CultCat-Bridging-Header.h */,
 				877CCDC41BE52D7A00D1EF1E /* FilmInformationViewController.swift */,
 				877CCDCA1BE541B000D1EF1E /* SessionViewController.swift */,
+				870F4E9B1BE5A427006D9460 /* StatisticViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -192,6 +197,7 @@
 			children = (
 				87D39C0D1BE5012C0068E891 /* FilmTableViewCell.swift */,
 				877CCDD11BE5552500D1EF1E /* CounterTableViewCell.swift */,
+				870F4E9D1BE5A63B006D9460 /* StatisticTableViewCell.swift */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -395,6 +401,7 @@
 				877CCDD01BE54CB400D1EF1E /* Counter.swift in Sources */,
 				871A8C701BE4FAA10011BB0D /* Film.swift in Sources */,
 				877CCDC91BE53E3E00D1EF1E /* Session.swift in Sources */,
+				870F4E9C1BE5A427006D9460 /* StatisticViewController.swift in Sources */,
 				871A8C6E1BE4FA3F0011BB0D /* User.swift in Sources */,
 				877CCDCB1BE541B000D1EF1E /* SessionViewController.swift in Sources */,
 				877CCDD21BE5552500D1EF1E /* CounterTableViewCell.swift in Sources */,
@@ -408,6 +415,7 @@
 				87D39C0E1BE5012C0068E891 /* FilmTableViewCell.swift in Sources */,
 				87D39C001BE4FD270068E891 /* RAMFrameItemAnimation.swift in Sources */,
 				877CCDCE1BE54AB400D1EF1E /* Question.swift in Sources */,
+				870F4E9E1BE5A63B006D9460 /* StatisticTableViewCell.swift in Sources */,
 				8707C5681BE4E91100AECFC1 /* AppDelegate.swift in Sources */,
 				87D39C011BE4FD270068E891 /* RAMFumeAnimation.swift in Sources */,
 				8707C5701BE4E91100AECFC1 /* CultCat.xcdatamodeld in Sources */,

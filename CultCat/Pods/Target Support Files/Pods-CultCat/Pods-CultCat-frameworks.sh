@@ -53,12 +53,14 @@ code_sign_if_enabled() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework 'Pods-CultCat/Bolts.framework'
+  install_framework 'Pods-CultCat/Charts.framework'
   install_framework 'Pods-CultCat/MagicalRecord.framework'
   install_framework 'Pods-CultCat/Parse.framework'
   install_framework 'Pods-CultCat/SwiftyJSON.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework 'Pods-CultCat/Bolts.framework'
+  install_framework 'Pods-CultCat/Charts.framework'
   install_framework 'Pods-CultCat/MagicalRecord.framework'
   install_framework 'Pods-CultCat/Parse.framework'
   install_framework 'Pods-CultCat/SwiftyJSON.framework'

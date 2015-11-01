@@ -6,5 +6,6 @@ target ‘CultCat’ do
 pod 'SwiftyJSON'
 pod "MagicalRecord"
 pod 'Parse'
-
+pod 'Charts'
+pod 'SwiftyVK', :git => 'https://github.com/WE-St0r/SwiftyVK.git'
 end

@@ -9,6 +9,7 @@
 import UIKit
 import CoreData
 import MagicalRecord
+import Parse
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -20,6 +21,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         MagicalRecord.setupCoreDataStackWithStoreNamed("Film")
+        Parse.setApplicationId("26soF4J8PHOC99pPx059t2zv5R35iFX7KCDDW788",
+            clientKey: "zwa3fRb2uvR9oU6S2YairTm8CJJ1KSBWORyyqr6H")
         
         return true
     }

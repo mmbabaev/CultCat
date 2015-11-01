@@ -52,9 +52,9 @@ class AfishaTableViewController: UIViewController, UITableViewDelegate, UITableV
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         currentFilm = films[indexPath.row]
         performSegueWithIdentifier("filmSegue", sender: self)
-        
     }
-override     
+    
+override
     func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "filmSegue" {
             let vc = segue.destinationViewController as! FilmInformationViewController
